@@ -47,7 +47,7 @@ function degreesToRadians(degrees){
     return degrees * Math.PI / 180;
 }
 function drawText(text, x, y, color="red"){
-    ctx.font = '30px Arial';
+    ctx.font = '20px Arial';
     ctx.fillStyle = color;
     // Write the text to the canvas
     ctx.fillText(text, x, y);   
